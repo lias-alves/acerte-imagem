@@ -17,13 +17,19 @@
 
 
 body{
-    background-image: linear-gradient(to right, rgba(250, 212, 212, 0.363),rgba(0, 0, 255, 0.438));
+    background: black url('../img/11.jpg') center center no-repeat fixed;
+    background-size: cover;
     font-family: var(--fonte-padrao);
     margin-top: 20px;
     color: var(--cor5);
 }
 
 main{
+    background-image: url('../img/7.jpg');
+    background-position: center center;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
     padding-top: 15px;
     max-width: 800px;
     height: 100%;
